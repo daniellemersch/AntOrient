@@ -1,6 +1,6 @@
 /*
- *
- *  Copyright Danielle Mersch. All rights reserved.
+ *  Created Danielle Mersch
+ *  Copyright Unil. All rights reserved.
  *
  */
 

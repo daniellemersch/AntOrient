@@ -1,6 +1,6 @@
 /*
- *
- *  Copyright Danielle Mersch. All rights reserved.
+ *  Created Danielle Mersch
+ *  Copyright Unil. All rights reserved.
  *
  */
 
@@ -203,8 +203,7 @@ double angle_xaxis(double x_origin, double y_origin, double x_target, double y_t
 // takes as input "ant" (coordinates and orientation, in degrees * 100, of the tag of the considered ant on the picture), "tailend" (coordinates of the tip of the gaster of that ant on the picture), "antenna reach" (coordinates of the midpoint between the tip of the antennae of that ant on the picture) and "param" (calibration parameters for that specific ant)
 // returns nothing, but modifies by reference the content of "param"
 
-void calculate_calibration_parameters(const tag_pos& ant, const position& tailend, const position&  antenna_reach, calibration_parameters& param)
-	{
+void calculate_calibration_parameters(const tag_pos& ant, const position& tailend, const position&  antenna_reach, calibration_parameters& param){
 
  	//::wxMessageBox(wxString::Format(wxT("Ant.x %d ant.y. %d tail.x %d tail.y %d antenna.x %d antenna.y %d"), ant.x, ant.y, tailend.x,tailend.y, antenna_reach.x, antenna_reach.y));
 

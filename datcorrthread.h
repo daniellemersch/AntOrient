@@ -2,7 +2,8 @@
  *  datcorrthread is a class that allows datcorr to run in a distinc thread 
  *  and hence display its progression on a progression bar
  *
- *  Copyright Danielle Mersch. All rights reserved.
+ *  Created by Danielle Mersch
+ *  Copyright Unil. All rights reserved.
  *
  */
  

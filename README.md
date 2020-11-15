@@ -5,4 +5,4 @@
 # 1. wx-widgets library with the SDK (https://wxwidgets.org/)
 # 2. libants library
 
-# then you can simply go to the folder with the ant orient code and type make
+# then you can simply go to the folder with the AntOrient code and type make

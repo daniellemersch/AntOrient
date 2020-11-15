@@ -1,5 +1,6 @@
 /*
- *  Copyright Danielle Mersch. All rights reserved.
+ *  Created by Danielle Mersch.
+ *  Copyrigth Unil All rights reserved.
  *
  */
 
