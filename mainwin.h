@@ -1,6 +1,6 @@
 /*
- *  Created Danielle Mersch
- *  Copyright Unil. All rights reserved.
+ *  Created by Danielle Mersch & Alessandro Crespi
+ *  Copyright Alessandro Crespi & Unil. All rights reserved.
  *
  */
 

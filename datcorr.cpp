@@ -1,6 +1,7 @@
 /*
  *  Created by Danielle Mersch.
- *  Copyrigth Unil All rights reserved.
+ *  Rotation Code modified by Nathalie Stroeymeyt to compensate lateral displacements
+ *  Copyright Unil All rights reserved.
  *
  */
 
@@ -33,7 +34,7 @@ bool distance_to_last(const tag_pos& t, const int frame, const previous& p, doub
 }
 
 
-//function correct_tag_position_angle © Nathalie Stroeymeyt
+//function correct_tag_position_angle created by Nathalie Stroeymeyt as replacement of original version
 // takes as input "tag" (coordinates and orientation, in degrees * 100, of the tag considered), "param" (calibration parameters for the ant identified by that specific tag) and "new_tag" (coordinates and orientation, in degrees * 100, of the tag considered, will be modified in the function to take into account the calibration parameters)
 // returns nothing, but modifies by reference the content of "new_tag" according to the calibration parameters
 void correct_tag_position_angle(const tag_pos& tag, const tags* tag_param, tag_pos& new_tag){
